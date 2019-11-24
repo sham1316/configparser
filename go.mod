@@ -1,3 +1,3 @@
-module iot-dev.goodwin.ru/bitbucket/scm/iot/configparser
+module github.com/sham1316/configparser
 
 go 1.12
