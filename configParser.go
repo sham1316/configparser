@@ -34,7 +34,7 @@ func setValueRecursion(v reflect.Value, tag string) error {
 			}
 			if val, do := value(); do == true {
 				if err := setField(v.Field(i), val); err != nil {
-					return err
+					continue
 				}
 			}
 		} else {
